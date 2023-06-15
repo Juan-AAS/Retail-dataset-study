@@ -6,7 +6,9 @@ WORKDIR /app
 
 RUN apt-get update \
   && apt-get install --yes --no-install-recommends \
-    build-essential
+    build-essential \
+    libpq-dev \
+    gcc
 
 COPY requirements.txt .
 
