@@ -1,11 +1,11 @@
 run:
-  docker compose up notebook
+  docker compose up
 
 build:
-  docker compose build notebook
+  docker compose build
 
 cleanup:
   docker compose down
 
 bash:
-  docker exec -it <CONTAINER ID> bash
+  docker exec -it c99ea8443682 bash
