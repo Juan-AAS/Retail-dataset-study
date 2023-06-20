@@ -1,5 +1,5 @@
 <div>
-  <h1 align="center">Docker Data Science Setup</h1>
+  <h1 align="center">Titanic Dataset Study</h1>
   <h4 align="center">A template for DataScience projects with Docker</h4>
 </div>
 
